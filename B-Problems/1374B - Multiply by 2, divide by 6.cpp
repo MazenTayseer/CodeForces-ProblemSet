@@ -33,8 +33,6 @@ int main() {
 		v.push_back(in);
 	}
  
-	cout << endl;
- 
 	for (a1 i = 0; i < v.size(); i++) {
 		cout << solve(v[i], 0) << endl;
 	}
